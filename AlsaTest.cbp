@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="sound_playback.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound_playback.h" />
 		<Extensions>
 			<envvars />
 			<code_completion />
