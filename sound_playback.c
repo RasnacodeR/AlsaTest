@@ -24,7 +24,7 @@
 #include <alsa/asoundlib.h>
 #include <stdio.h>
 
-#define PCM_DEVICE "plughw:1,0"
+#define PCM_DEVICE "default"
 
 int main(int argc, char **argv) {
 	unsigned int pcm, tmp, dir;
